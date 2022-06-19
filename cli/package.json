@@ -7,7 +7,7 @@
     "staticrypt": "./index.js"
   },
   "dependencies": {
-    "crypto-js": ">=3.1.9-1",
+    "crypto-js": "^4.1.1",
     "yargs": ">=10.0.3"
   },
   "author": "Robin Moisson (https://github.com/robinmoisson)",
@@ -15,7 +15,6 @@
     "Aaron Coplan (https://github.com/AaronCoplan)"
   ],
   "license": "MIT",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

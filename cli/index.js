@@ -292,7 +292,7 @@ function genFile(data) {
  * @returns string
  */
 function render(tpl, data) {
-    return tpl.replace(/{(.*?)}/g, function (_, key) {
+    return tpl.replace(/{{(.*?)}}/g, function (_, key) {
         if (data && data[key] !== undefined) {
             return data[key];
         }
